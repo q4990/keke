@@ -24,7 +24,7 @@ async function all() {
         await $.wait(1000);
         await vediorewarddraw421();
         await $.wait(1000);
-        await drawreward421();
+        await drawreward430();
     }
     await $.wait(1000);
     await read();
@@ -669,7 +669,7 @@ function vediorewarddraw421() {
 
   
 
-function drawreward421() {
+function drawreward430() {
     return new Promise((resolve, reject) => {
          const url = "https://ocean.shuqireader.com/api/activity/activity/v1/lottery/draw?asac=2A20C07RJ9F51AOEFSNHDR";
          const headers = {
@@ -701,6 +701,8 @@ function drawreward421() {
         })
     })
 }
+  
+
   
 
   
